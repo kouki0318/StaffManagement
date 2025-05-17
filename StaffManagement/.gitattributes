@@ -1,0 +1,14 @@
+# すべてのテキストファイルでCRLFをLFに自動変換
+* text=auto
+
+# Java ソースファイルを明示的にtext属性に設定
+*.java text
+*.xml text
+*.properties text
+
+# バイナリファイルはtext属性を設定しない
+*.class binary
+*.jar binary
+*.gif binary
+*.jpg binary
+*.png binary
