@@ -12,3 +12,4 @@
 *.gif binary
 *.jpg binary
 *.png binary
+.gitignore text eol=lf
